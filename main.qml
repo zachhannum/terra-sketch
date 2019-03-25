@@ -12,13 +12,5 @@ Window {
     title: qsTr("TerraSketch")
 
     Tools{}
-
-
-    Rectangle
-    {
-        anchors.centerIn: parent
-        height: parent.height
-        width: 5
-        color: Theme.primary
-    }
+    Sketch{}
 }
